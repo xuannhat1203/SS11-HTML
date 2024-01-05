@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    padding: 10px;
+    height: 80vh;
+    width: 160vh;
+    object-fit: cover;
+}
+.headText{
+    position: absolute;
+    border: 1px solid white;
+    padding: 10px;
+    font-size: 20px;
+    left: 5vh;
+    top: 5vh;
+    color: white;
+}
+.main {
+    position: relative;
+    width: 160vh;
+}
+.main div {
+    position: absolute;
+    bottom: 40px;
+    left: 10vh;
+    color: white;
+    width: 100vh;
+}
+.text{
+    padding: 20px 0px;
+}
+.foot{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+button{
+    font-size: 25px;
+    padding: 5px 10px;
+}
+.foot p{
+    background-color: rgb(209, 208, 208);
+    padding: 5px 10px;
+    transition: all 0.3s;
+}
+.foot p:hover{
+    border-radius: 100%;
+    background-color: gray;
+}
+.foot{
+    position: relative;
+    right: 390px;
+}
